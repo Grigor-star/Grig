@@ -112,7 +112,7 @@ body{
     height: 750px;
     padding-top: 100px;
 
-    background: url('intro6.jpg') no-repeat center / cover;
+    background: url('intro2.jpg') no-repeat center / cover;
     
     
     
@@ -130,7 +130,7 @@ body{
 .intro__title{
     margin: 100px 0 30px;
     margin-bottom: 150px;
-    color: white;
+    color: black;
     font-family: 'Open Sans', sans-serif;
     font-size: 75px;
     line-height: 1.1;
