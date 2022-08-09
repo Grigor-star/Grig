@@ -38,7 +38,7 @@ body{
     
     position: fixed;
     background-color:  #313454;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
 }
 
 .header__inner{
@@ -227,7 +227,7 @@ body{
 .about_text {
     color: white;
     font-family: 'Cardo', serif;
-    font-size: 30px;
+    font-size: 40px;
     font-style: italic;
     padding-left: 80px;
     padding-top: 80px;
@@ -456,9 +456,9 @@ input[name="r"] {
 
 .social_link {
    
-    
+    padding-top: 10px;
     width: 35px;
-    padding-right: 15px;
+    padding-right: 10px;
     padding-bottom: 10px;
 }
 
@@ -611,8 +611,9 @@ input[name="r"] {
     }
     
     .about_text {
+        padding-top: 60px;
         padding-left: 0;
-        font-size: 28px;
+        font-size: 26px;
     }
     
     .about_photo {
@@ -631,6 +632,22 @@ input[name="r"] {
 }
 
 @media screen and (max-width:435px){
+     
+     .social_link {
+         width: 25px;
+     }
+     
+     .footer_title {
+         font-size: 14px;
+     }
+     
+     .footer_address {
+         font-size: 12px;
+     }
+     
+     .copyright_inner {
+         font-size: 10px;
+     }
      
      .skills {
         height: 1500px;
